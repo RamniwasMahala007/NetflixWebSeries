@@ -4,7 +4,7 @@
 
 ## Links
 
-Live Site URL: []()
+Live Site URL: [https://netflix-web-series-obzr.vercel.app/](https://netflix-web-series-obzr.vercel.app/)
 
 ## Screenshots
 
