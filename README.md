@@ -1,3 +1,15 @@
+# Netflix Web Series 
+
+ In this project my best web series are added using `props` method in ReactJs.
+
+## Links
+
+Live Site URL: []()
+
+## Screenshots
+
+![Screenshot](./src/image/screenshot.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
