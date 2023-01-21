@@ -3,33 +3,43 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card';
 import Animation from './Animation';
+import SData from './SData';
 
+// console.log(SData[0].sname);
 const root = document.getElementById('root');
 ReactDOM.render(<>
 
 <Animation/>
  
-<Card   sname ="The Witcher"
-        imgsrc = "https://wallpapercave.com/w/wp4423069.jpg"
-        title = "A Netflix Original Series"
-        link = "https://www.netflix.com/in/title/80189685?source=35" />
+<Card   sname = {SData[0].sname}
+        imgsrc = {SData[0].imgsrc}
+        title = {SData[0].title}
+        link = {SData[0].link} 
+
+        />
 
 
-<Card   sname = "Shadow and Bone"
-        imgsrc = "https://wallpapercave.com/w/wp8781073.jpg"
-        title = "A Netflix Original Series"
-        link = "https://www.netflix.com/in/title/80236319?source=35"/>
+<Card   sname = {SData[1].sname}
+        imgsrc = {SData[1].imgsrc}
+        title = {SData[1].title}
+        link = {SData[1].link}
+
+        />
 
 
-<Card   sname = "Sweet Tooth"
-        imgsrc = "https://wallpapercave.com/w/wp9313468.jpg"
-        title = "A Netflix Original Series"
-        link = "https://www.netflix.com/in/title/81221380?source=35"/>
+<Card   sname = {SData[2].sname}
+        imgsrc = {SData[2].imgsrc}
+        title = {SData[2].title}
+        link = {SData[2].link}
 
-<Card   sname = "1899"
-        imgsrc = "https://wallpapercave.com/w/wp11766167.jpg"
-        title = "A Netflix Original Series"
-        link = "https://www.netflix.com/in/title/80214497?source=35" />
+        />
+
+<Card  sname = {SData[3].sname}
+        imgsrc = {SData[3].imgsrc}
+        title = {SData[3].title}
+        link = {SData[3].link}
+
+        />
 
 </>,root);
 
